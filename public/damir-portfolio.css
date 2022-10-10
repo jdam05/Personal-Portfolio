@@ -70,11 +70,27 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
+.main-content a {
+	text-decoration: none;
+}
 
 .main-content h2 {
 	font-family: "Fira Mono", monospace;
 	padding-top: 80px;
 	text-align: center;
+}
+
+#landing-top {
+	display: flex;
+	flex-direction: row;
+	padding: 50px;
+}
+#landing-pic img {
+	height: 50%;
+	width: 100%;
+	margin-right: 100px;
+	border-radius: 100px / 50px;
+	opacity: 0.5;
 }
 .intro-large {
 	font-size: 30px;
