@@ -8,7 +8,7 @@ class Navigation extends HTMLElement {
         <div class="nav">
 				<ul>
 					<li>
-						<a href="damir-portfolio-index.html">Home</a>
+						<a href="index.html">Home</a>
 					</li>
 					<li>
 						<a href="damir-portfolio-projects.html">Projects</a>
