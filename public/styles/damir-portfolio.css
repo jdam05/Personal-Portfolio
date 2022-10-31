@@ -284,12 +284,16 @@ body {
 	width: 100px;
 	height: 30px;
 	cursor: pointer;
+	margin-top: 50px;
 }
 .card-content button:hover {
 	box-shadow: 5px 5px 50px 2px #f1f1f1;
 }
 .card-content:hover {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.diagrams img {
+	width: 95%;
 }
 .white-text {
 	color: white;
