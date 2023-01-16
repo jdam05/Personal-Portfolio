@@ -20,6 +20,9 @@ class Navigation extends HTMLElement {
 						<a href="damir-portfolio-api-unit-tests.html">API Unit Tests</a>
 					</li>
 					<li>
+						<a href="damir-portfolio-devops.html">DevOps</a>
+					</li>
+					<li>
 						<a href="damir-portfolio-resume.html">Resume</a>
 					</li>
 					<li>
