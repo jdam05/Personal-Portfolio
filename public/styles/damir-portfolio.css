@@ -20,6 +20,7 @@ body {
 
 .main-container {
 	background-color: var(--background);
+	max-width: 100%;
 }
 
 .nav ul {
@@ -49,6 +50,9 @@ body {
 	font-size: 100px;
 	color: var(--primary);
 	text-align: center;
+}
+.header a {
+	text-decoration: none;
 }
 .footer p {
 	text-align: center;
@@ -138,7 +142,7 @@ body {
 
 #about-content p {
 	height: auto;
-	max-height: 400px;
+	max-height: 800px;
 	width: auto;
 	max-width: 800px;
 	font-family: "Fira Mono", sans-serif;
@@ -267,6 +271,7 @@ body {
 	font-size: 2em;
 	color: var(--primary);
 	font-weight: 400;
+	word-wrap: break-word;
 }
 
 .card-content {
@@ -300,4 +305,28 @@ body {
 }
 .footer p {
 	color: white;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 850px) {
+	#about-content {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		gap: 50px;
+	}
+
+	#about-content img {
+		margin: auto;
+	}
+
+	.about-container h1 {
+		text-align: center;
+	}
+
+	#bucket-list {
+		display: flex;
+		flex-direction: column;
+	}
 }
