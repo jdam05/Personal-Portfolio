@@ -54,13 +54,10 @@ body {
 .header a {
 	text-decoration: none;
 }
-.footer p {
-	text-align: center;
-}
 
 .main-content {
-	border-top: 10px solid wheat;
-	border-bottom: 10px solid wheat;
+	border-top: 5px solid wheat;
+	border-bottom: 5px solid wheat;
 }
 
 .main-content p {
@@ -102,9 +99,10 @@ body {
 }
 #bucket-list-container {
 	color: white;
-	border-top: 10px solid wheat;
+	border-top: 5px solid wheat;
 	border-bottom: 5px solid wheat;
 	text-align: center;
+	min-height: 30rem;
 }
 #bucket-list-container h2 {
 	font-family: "League Spartan", sans-serif;
@@ -113,10 +111,11 @@ body {
 	font-family: "Fira Mono", monospace;
 	display: flex;
 	flex-direction: row;
-	width: 100%;
-	padding: 50px 180px 50px 180px;
+	padding: 50px 50px;
 	gap: 30px;
 	font-size: larger;
+	margin: auto;
+	width: 50%;
 }
 
 #bucket-list ul {
@@ -162,8 +161,8 @@ body {
 }
 
 .resume-container {
-	border-top: 10px solid wheat;
-	border-bottom: 10px solid wheat;
+	border-top: 5px solid wheat;
+	border-bottom: 5px solid wheat;
 	max-width: 100%;
 }
 
@@ -245,8 +244,8 @@ body {
 }
 
 #projects-content {
-	border-top: 10px solid wheat;
-	border-bottom: 10px solid wheat;
+	border-top: 5px solid wheat;
+	border-bottom: 5px solid wheat;
 	max-width: 100%;
 	text-align: center;
 	padding-bottom: 50px;
@@ -305,6 +304,14 @@ body {
 }
 .footer p {
 	color: white;
+	text-align: center;
+	margin: auto;
+}
+
+#footer-container {
+	padding-top: 50px;
+	bottom: 0;
+	margin-bottom: 40px;
 }
 
 /* Responsiveness */
