@@ -27,15 +27,10 @@
 						<hr />
 						<div class="card-content diagrams">
 							<img
+								class="enlargeModal"
 								src="public/images/NodeShopper.png"
 								alt="NodeShopper Database Diagram"
 							/>
-
-							<button
-								onclick="window.location.href='public/images/NodeShopper.png';"
-							>
-								Enlarge
-							</button>
 						</div>
 					</div>
 					<div class="card">
@@ -43,15 +38,10 @@
 						<hr />
 						<div class="card-content diagrams">
 							<img
+								class="enlargeModal"
 								src="public/images/NodeTech.png"
 								alt="NodeTech Database Diagram"
 							/>
-
-							<button
-								onclick="window.location.href='public/images/NodeTech.png';"
-							>
-								Enlarge
-							</button>
 						</div>
 					</div>
 					<div class="card">
@@ -59,15 +49,10 @@
 						<hr />
 						<div class="card-content diagrams">
 							<img
+								class="enlargeModal"
 								src="public/images/NodeSecurityORD.png"
 								alt="NodeSecurity Database Diagram"
 							/>
-
-							<button
-								onclick="window.location.href='public/images/NodeSecurityORD.png';"
-							>
-								Enlarge
-							</button>
 						</div>
 					</div>
 					<div class="card">
@@ -75,15 +60,10 @@
 						<hr />
 						<div class="card-content diagrams">
 							<img
+								class="enlargeModal"
 								src="public/images/NodeBookCoORD.png"
 								alt="NodeBookCo Database Diagram"
 							/>
-
-							<button
-								onclick="window.location.href='public/images/NodeBookCoORD.png';"
-							>
-								Enlarge
-							</button>
 						</div>
 					</div>
 					<div class="card">
@@ -91,15 +71,10 @@
 						<hr />
 						<div class="card-content diagrams">
 							<img
+								class="enlargeModal"
 								src="public/images/WhatABook-ORD.png"
 								alt="WhatABook Database Diagram"
 							/>
-
-							<button
-								onclick="window.location.href='public/images/WhatABook-ORD.png';"
-							>
-								Enlarge
-							</button>
 						</div>
 					</div>
 					<div class="card">
@@ -112,12 +87,6 @@
 								enim ad minim veniam, quis nostrud exercitation ullamco laboris
 								nisi ut aliquip ex ea commodo consequat.
 							</p>
-
-							<button
-								onclick="window.location.href='https://jdam05.github.io/web-231/';"
-							>
-								Click Here
-							</button>
 						</div>
 					</div>
 					<div class="card">
@@ -130,12 +99,6 @@
 								enim ad minim veniam, quis nostrud exercitation ullamco laboris
 								nisi ut aliquip ex ea commodo consequat.
 							</p>
-
-							<button
-								onclick="window.location.href='https://jdam05.github.io/web-231/';"
-							>
-								Click Here
-							</button>
 						</div>
 					</div>
 					<div class="card">
@@ -148,12 +111,6 @@
 								enim ad minim veniam, quis nostrud exercitation ullamco laboris
 								nisi ut aliquip ex ea commodo consequat.
 							</p>
-
-							<button
-								onclick="window.location.href='https://jdam05.github.io/web-231/';"
-							>
-								Click Here
-							</button>
 						</div>
 					</div>
 					<div class="card">
@@ -166,17 +123,16 @@
 								enim ad minim veniam, quis nostrud exercitation ullamco laboris
 								nisi ut aliquip ex ea commodo consequat.
 							</p>
-
-							<button
-								onclick="window.location.href='https://jdam05.github.io/web-231/';"
-							>
-								Click Here
-							</button>
 						</div>
+					</div>
+					<div id="myModal" class="modal">
+						<span class="close" onclick="closeModal()">&times;</span>
+						<img class="modal-content" id="enlargedImg" src="" />
 					</div>
 				</div>
 			</div>
 			<footer-component></footer-component>
 		</div>
+		<script src="public/js/modal.js"></script>
 	</body>
 </html>
